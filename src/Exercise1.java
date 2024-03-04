@@ -9,7 +9,6 @@ public class Exercise1 {
         String[] testArr = {"asd", "xd", "lmao", "lol", "rofl"};
         String testStr = "roflmao";
         System.out.println("3) metodo insertInArray(testArr, testStr): " + Arrays.toString(insertInArray(testArr, testStr)));
-
     }
 
     public static int multiply(int num1, int num2) {
@@ -24,6 +23,6 @@ public class Exercise1 {
         if (arr.length != 5) {
             throw new RuntimeException("L'array deve necessariamente avere una lunghezza di 5");
         }
-        return new String[]{arr[0], arr[1], arr[2], str, arr[3], arr[4]};
+        return new String[] {arr[0], arr[1], arr[2], str, arr[3], arr[4]};
     }
 }

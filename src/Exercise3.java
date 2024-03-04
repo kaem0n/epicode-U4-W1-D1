@@ -8,7 +8,7 @@ public class Exercise3 {
     }
 
     public static double rectanglePerimeter(double width, double height) {
-        return width * height;
+        return (width + height) * 2;
     }
 
     public static int evenOrOdd(int num) {

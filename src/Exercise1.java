@@ -8,7 +8,7 @@ public class Exercise1 {
 
         String[] testArr = {"asd", "xd", "lmao", "lol", "rofl"};
         String testStr = "roflmao";
-        System.out.println("3b) metodo insertInArray(testArr, testStr): " + Arrays.toString(insertInArray(testArr, testStr)));
+        System.out.println("3) metodo insertInArray(testArr, testStr): " + Arrays.toString(insertInArray(testArr, testStr)));
 
     }
 
